@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net7.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.0.0" />
     <PackageReference Include="IdentityServer4" Version="1.0.0" />
     <PackageReference Include="AspNet.Security.OAuth.Providers" Version="1.0.0" />
     <PackageReference Include="SimpleAuthentication" Version="1.0.0" />
